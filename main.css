@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, input, textarea {
+    font-family: 'Poppins', sans-serif;
+    color: #e0e0e0;
+    background-color: #1c1c1c;
+}
+
+header, section h2, form button {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: normal;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #0d0d0d;
+    color: #ffd700;
+}
+
+header h1 {
+    font-size: 36px;
+    color: #ffd700;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+}
+
+header nav li a {
+    color: #ffd700;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+header nav li a:hover {
+    color: #ff6600;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+header .container, section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section {
+    padding: 24px 0;
+    color: #e0e0e0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+    color: #ffd700;
+    font-size: 28px;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.studio-photo {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 8px;
+    margin-right: 32px;
+}
+
+.services-list {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+.services-list li {
+    background-color: #2a2a2a;
+    padding: 12px 20px;
+    border-radius: 4px;
+    color: #ffd700;
+    font-weight: bold;
+    text-align: center;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+.artistas img {
+    height: 100px;
+}
+
+.artistas li {
+    display:inline;
+    margin-right: 12px;
+}
+
+.artistas li a {
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input, form textarea, form button {
+    display: block;
+    width: 100%;
+    max-width: 320px;
+    margin-bottom: 8px;
+    padding: 12px;
+    background-color: #333;
+    color: #e0e0e0;
+    border: 1px solid #555;
+    border-radius: 4px;
+}
+
+form textarea {
+    resize: none;
+    height: 120px;
+}
+
+form button {
+    background-color: #ffd700;
+    color: #1c1c1c;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #ff6600;
+}
+
+input:focus, textarea:focus {
+    outline-color: #ffd700;
+}
+
+footer {
+    background-color: #0d0d0d;
+    color: #ffd700;
+    padding: 16px 0;
+    text-align: center;
+}
